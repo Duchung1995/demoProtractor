@@ -29,8 +29,9 @@
               "location": "features/_step_definitions/loginSteps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 59774000000
+              "status": "failed",
+              "duration": 60006000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout._onTimeout (/Users/HungLe/WorkPlace/demoProtractor/node_modules/cucumber/lib/user_code_runner.js:81:20)\n    at listOnTimeout (internal/timers.js:549:17)\n    at processTimers (internal/timers.js:492:7)"
             }
           },
           {
@@ -42,8 +43,7 @@
               "location": "features/_step_definitions/loginSteps.js:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 1276000000
+              "status": "skipped"
             }
           },
           {
@@ -55,8 +55,7 @@
               "location": "features/_step_definitions/loginSteps.js:18"
             },
             "result": {
-              "status": "passed",
-              "duration": 58000000
+              "status": "skipped"
             }
           },
           {
@@ -66,7 +65,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]

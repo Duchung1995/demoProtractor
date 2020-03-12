@@ -1,5 +1,3 @@
-const {importReportToXRay} = require('./utils/import_report');
-
 exports.config = {
   seleniumAddress: "http://localhost:4444/wd/hub",
   getPageTimeout: 50 * 1000,
@@ -12,9 +10,7 @@ exports.config = {
 
   specs: [
     "./features/login.feature"
-    , "./features/jobCreate.feature"
-    
-    
+
   ],
 
   cucumberOpts: {
@@ -34,9 +30,6 @@ exports.config = {
   onPrepare() {
     browser.ignoreSynchronization = true;
     browser.waitForAngularEnabled(false);
-	  browser.driver.manage().window().maximize();
+    browser.driver.manage().window().maximize();
   },
-  async afterLaunch() {
-    // await importReportToXRay();
-  }
 };
