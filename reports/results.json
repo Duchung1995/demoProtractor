@@ -1,0 +1,76 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "login;login-success",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login Success",
+        "tags": [
+          {
+            "name": "@login_success",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I go to login page",
+            "match": {
+              "location": "features/_step_definitions/loginSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59774000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login by username \"trang\" and password \"beheoredweb\"",
+            "match": {
+              "location": "features/_step_definitions/loginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify login is success",
+            "match": {
+              "location": "features/_step_definitions/loginSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
