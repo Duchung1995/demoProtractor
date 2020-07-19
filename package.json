@@ -3,7 +3,7 @@
     "chai": "^4.2.0",
     "colorcolor": "^1.1.1",
     "crypto": "^1.0.1",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "cucumber": "^5.0.1",
